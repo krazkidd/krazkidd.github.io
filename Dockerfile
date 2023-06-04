@@ -79,4 +79,4 @@ USER appuser
 
 EXPOSE 4000/tcp
 
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--drafts"]
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--drafts", "--strict_front_matter", "--no-watch"]
