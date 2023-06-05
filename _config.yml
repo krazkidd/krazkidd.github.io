@@ -178,16 +178,6 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: "projects"
     values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-  # - scope:
-  #     path: ""
-  #     type: "projects"
-  #   values:
-  #     layout: "project"
+      layout: "project"
