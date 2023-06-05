@@ -1,124 +1,11 @@
-# Site
-repository: krazkidd/krazkidd.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
-version: 2
-
-# Personal info
-name: Mark Ross
-title: Senior Full-Stack Engineer
-#email:
-# email_title: Email (Email title override)
-#phone:
-# phone_title: Phone (Phone title override)
-website: https://krazkidd.github.io
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-#twitter_username:
-github_username: krazkidd
-#stackoverflow_username:
-#dribbble_username:
-#facebook_username:
-#flickr_username:
-#instagram_username:
-#linkedin_username:
-#xing_username:
-#pinterest_username:
-#youtube_username:
-#orcid_username:
-#googlescholar_username:
-
-# Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: https://github.com/krazkidd.png?size=50
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
-# Footer
-footer_show_references: false
-# references_title: References on request (Override references text)
+# Site settings
+title: "Mark Ross - Senior Full-Stack Engineer"
+description: "TODO Ea do aute tempor incididunt proident est qui minim dolor laboris eiusmod quis consequat."
 
 # Build settings
+markdown: kramdown
 # theme: modern-resume-theme (Use this iF you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme@v2.0.10 # (Use this if you are hosting your resume on GitHub)
+remote_theme: jglovier/resume-template # (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -139,8 +26,8 @@ plugins:
 
   # supported by GitHub
   # see https://pages.github.com/versions/
-  - jekyll-avatar
-  - jekyll-feed
+  #- jekyll-avatar
+  #- jekyll-feed
   - jekyll-remote-theme
 
   # *not* supported by GitHub (requires custom GitHub Action to build/publish)
@@ -149,9 +36,6 @@ plugins:
   #- jekyll-mermaid
   #TODO compare to jemoji
   #- jekyll-octicons
-
-  # introduced by sproogen/modern-resume-theme
-  #- jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -165,19 +49,58 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#   # introduced by sproogen/modern-resume-theme
-#   - lib/
-#   - scripts/
-#   - docker-compose.yml
+# Resume settings
+resume_avatar_url: "https://github.com/krazkidd.png?size=50"
+resume_name: "Mark Ross"
+resume_title: "Senior Full-Stack Engineer"
 
-collections:
-  projects:
-    output: true
-    sort_by: date
+# used for the contact button in _layouts/resume.html
+resume_contact_email: ""
 
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone: ""
+resume_contact_address: ""
+
+resume_header_contact_info: "Arizona, USA"
+display_header_contact_info: "true"
+
+resume_header_intro: >
+  <p>
+    TODO Exercitation adipisicing ipsum aliquip nulla esse culpa exercitation adipisicing esse exercitation. Do eiusmod qui consectetur sint proident ullamco tempor minim. Nisi dolore nulla eiusmod dolor esse occaecat voluptate voluptate anim minim aute nostrud. Duis occaecat aliqua fugiat ex fugiat ullamco cupidatat labore. Cupidatat irure est eiusmod est duis eiusmod amet exercitation voluptate ea esse elit. Anim laboris pariatur Lorem deserunt officia magna minim nulla do sint.
+  </p>
+  <p>
+    TODO Et aliqua culpa amet et adipisicing incididunt ut deserunt voluptate. Eu ad anim qui Lorem aute sunt cillum. Velit ullamco ad occaecat fugiat incididunt laboris eiusmod reprehenderit anim magna velit eiusmod incididunt aliqua. Minim dolore occaecat pariatur sint aliqua ullamco do dolore. Mollit ullamco reprehenderit sunt esse sunt Lorem ut laboris adipisicing. Nulla quis nostrud dolor nulla voluptate deserunt duis.
+  </p>
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work: "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience: true
+resume_section_education: true
+resume_section_projects: true
+#resume_section_skills: true
+#resume_section_recognition: true
+#resume_section_links: true
+#resume_section_associations: true
+#resume_section_interests: true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url: "https://github.com/krazkidd"
+  #resume_twitter_url: ""
+  #resume_dribbble_url: ""
+  #resume_facebook_url: ""
+  #resume_linkedin_url: ""
+  #resume_instagram_url: ""
+  resume_website_url: "https://krazkidd.github.io/"
+  #resume_medium_url: ""
+resume_print_social_links: true
+
+# Design settings
+resume_theme: default
