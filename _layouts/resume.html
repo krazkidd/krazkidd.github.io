@@ -141,9 +141,11 @@
               >{{ project.project }}</a
             >{% else %}{{ project.project }}{% endif %}
           </h3>
+          {% if project.role and project.duration %}
           <h4 class="resume-item-details" itemprop="description">
             {{ project.role }} &bull; {{ project.duration }}
           </h4>
+          {% endif %}
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
