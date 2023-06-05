@@ -3,7 +3,8 @@
 - project: Snake-M
   #role:
   #duration:
-  #url: "#"
+  #url: "https://github.com/krazkidd/snakem"
+  tags: python fastapi websockets docker game portfolio
   description: >
     TODO Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
 
@@ -11,19 +12,22 @@
   #role:
   #duration:
   url: "https://krazkidd.github.io/2048/"
+  tags: javascript jquery bootstrap game
   description: >
     TODO SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
 
 - project: Rockoon Telemetry Logger
   #role:
   #duration:
-  #url: "#"
+  #url: "https://github.com/krazkidd/stratogee-rockoon"
+  tags: arduino c++ academic
   description: >
     TODO Et eiusmod cillum consequat labore et consequat sit reprehenderit occaecat mollit esse veniam ullamco.
 
 - project: Gube Roldberg
   #role:
   #duration:
-  #url: "#"
+  #url: "https://github.com/krazkidd/gube-roldberg"
+  tags: java game academic
   description: >
     TODO Nulla nisi elit excepteur reprehenderit occaecat commodo.
