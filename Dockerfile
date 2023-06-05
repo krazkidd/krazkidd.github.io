@@ -16,17 +16,16 @@
 # "#################################################"
 FROM ubuntu:22.04
 
-WORKDIR /src/site
-
 # "#################################################"
 # "Install Ubuntu prerequisites for Ruby and GitHub Pages (Jekyll)"
 # "Partially based on https://gist.github.com/jhonnymoreira/777555ea809fd2f7c2ddf71540090526"
-RUN apt-get update && apt-get -y install \
+RUN apt-get update && apt-get -y --no-install-recommends install \
     git \
     curl \
     autoconf \
     bison \
     build-essential \
+    ca-certificates \
     libssl-dev \
     libyaml-dev \
     libreadline6-dev \
@@ -49,8 +48,8 @@ ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
 
 # "#################################################"
 # "Install rbenv to manage Ruby versions"
-RUN git clone https://github.com/rbenv/rbenv.git ${RBENV_ROOT} \
-    && git clone https://github.com/rbenv/ruby-build.git \
+RUN git clone --depth 1 https://github.com/rbenv/rbenv.git ${RBENV_ROOT} \
+    && git clone --depth 1 https://github.com/rbenv/ruby-build.git \
     ${RBENV_ROOT}/plugins/ruby-build \
     && ${RBENV_ROOT}/plugins/ruby-build/install.sh \
     && echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv.sh
@@ -68,9 +67,13 @@ RUN rbenv install ${RUBY_VERSION} \
 # "       RUN gem install jekyll -v '~>3.9'"
 RUN gem install jekyll -v '3.9.3'
 
-COPY . /src/site
+# Install ruby requirements
+COPY Gemfile Gemfile.lock ./
+RUN bundle install \
+    && rm -rf /usr/local/bundle/cache
 
-RUN bundle install
+WORKDIR /src/site/
+COPY . /src/site/
 
 # Creates a non-root user with an explicit UID and adds permission to access the /src/site folder
 # For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
