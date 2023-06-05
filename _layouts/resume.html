@@ -14,9 +14,9 @@
 
       <header class="page-header">
         <!-- You can turn off the avatar in _config.yml by setting to false -->
-        {% if site.resume_avatar == 'true' %}
+        {% if site.resume_avatar_url %}
         <img
-          src="images/avatar.jpg"
+          src="{{ site.resume_avatar_url }}"
           alt="my photo"
           class="avatar no-print"
           itemprop="image"
