@@ -83,6 +83,15 @@
               <h4 class="resume-item-details" itemprop="description">
                 {{ job.position }} &bull; {{ job.duration }}
               </h4>
+
+              <div class="word-cloud">
+                {% for skill in job.skills %}
+                  <span class="cloud-item weight-30">
+                    {{ skill.skill }}
+                  </span>
+                {% endfor %}
+              </div>
+
               <p class="resume-item-copy">{{ job.summary }}</p>
             </div>
 
@@ -155,6 +164,15 @@
                   {{ project.role }} &bull; {{ project.duration }}
                 </h4>
               {% endif %}
+
+              <div class="word-cloud">
+                {% for skill in project.skills %}
+                  <span class="cloud-item weight-30">
+                    {{ skill.skill }}
+                  </span>
+                {% endfor %}
+              </div>
+
               <p class="resume-item-copy">{{ project.description }}</p>
             </div>
           {% endfor %}

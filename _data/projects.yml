@@ -4,15 +4,36 @@
   #role:
   #duration:
   #url: "https://github.com/krazkidd/snakem"
-  tags: python fastapi websockets docker
+  skills:
+    - skill: Python
+      weight: 30
+      #description:
+    - skill: FastAPI
+      weight: 30
+      #description:
+    - skill: WebSockets
+      weight: 30
+      #description:
+    - skill: Docker
+      weight: 30
+      #description:
   description: >
-    Implemented a simple multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud with a Docker container.
+    Implemented a simple networked multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud with a Docker container.
 
 # - project: 204∞
 #   #role:
 #   #duration:
 #   url: "https://krazkidd.github.io/2048/"
-#   tags: javascript jquery bootstrap
+#   skills:
+#     - skill: JavaScript
+#       weight: 30
+#       description:
+#     - skill: jQuery
+#       weight: 30
+#       description:
+#     - skill: BootStrap
+#       weight: 30
+#       description:
 #   description: >
 #     TODO
 
@@ -20,7 +41,10 @@
   #role:
   #duration:
   #url: "https://github.com/krazkidd/stratogee-rockoon"
-  tags: arduino c++
+  skills:
+    - skill: Arduino
+      weight: 30
+      #description:
   description: >
     Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a breadboard-based circuit that would collect and log telemetry (acceleration, geoposition, and temperature) to an SD card.
 
@@ -28,6 +52,9 @@
 #   #role:
 #   #duration:
 #   #url: "https://github.com/krazkidd/gube-roldberg"
-#   tags: java game
+#   skills:
+#     - skill: Java
+#       weight: 30
+#       description:
 #   description: >
 #     TODO
