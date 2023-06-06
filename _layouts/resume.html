@@ -3,7 +3,8 @@
   {% include head.html %}
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
-    <div class="wrapper"
+    <div
+      class="wrapper"
       itemscope
       itemtype="http://schema.org/Person">
 
@@ -13,7 +14,7 @@
       /> -->
 
 
-        <!-- <meta itemprop="address" content="{{ site.resume_contact_address }}" /> -->
+      <!-- <meta itemprop="address" content="{{ site.resume_contact_address }}" /> -->
 
         <header class="page-header">
         <!-- You can turn off the avatar in _config.yml by setting to false -->
@@ -85,11 +86,11 @@
               <p class="resume-item-copy">{{ job.summary }}</p>
             </div>
 
-          <!-- end of resume-item -->
+            <!-- end of resume-item -->
           {% endfor %}
         </section>
 
-      <!-- end Experience -->
+        <!-- end Experience -->
       {% endif %}
       {% if site.resume_section_education %}
 
@@ -124,7 +125,7 @@
           {% endfor %}
         </section>
 
-      <!-- end Education -->
+        <!-- end Education -->
       {% endif %}
       {% if site.resume_section_projects %}
 
@@ -159,7 +160,7 @@
           {% endfor %}
         </section>
 
-      <!-- end Projects -->
+        <!-- end Projects -->
       {% endif %}
       {% if site.resume_section_skills %}
 
@@ -184,7 +185,7 @@
           </div>
         </section>
 
-      <!-- end Skills -->
+        <!-- end Skills -->
       {% endif %}
       {% if site.resume_section_recognition %}
 
@@ -207,7 +208,7 @@
           {% endfor %}
         </section>
 
-      <!-- end Recognition -->
+        <!-- end Recognition -->
       {% endif %}
       {% if site.resume_section_associations %}
 
@@ -237,7 +238,7 @@
           {% endfor %}
         </section>
 
-      <!-- end Associations -->
+        <!-- end Associations -->
       {% endif %}
       {% if site.resume_section_interests %}
 
@@ -256,7 +257,7 @@
           </div>
         </section>
 
-      <!-- end Interests -->
+        <!-- end Interests -->
       {% endif %}
       {% if site.resume_section_links %}
 
@@ -277,7 +278,7 @@
           </div>
         </section>
 
-      <!-- end Links -->
+        <!-- end Links -->
       {% endif %}
       {% if site.resume_print_social_links %}
 
@@ -290,7 +291,7 @@
           <div class="resume-item">{% include print-social-links.html %}</div>
         </section>
 
-      <!-- end Print Social Links -->
+        <!-- end Print Social Links -->
       {% endif %}
 
       <footer class="page-footer">
