@@ -168,13 +168,18 @@
           <header class="section-header">
             <h2>Skills</h2>
           </header>
-          <div>
+
+          <div class="resume-item">
             {% for category in site.data.skills %}
-              {% for skill in category.skills %}
-                <span class="skill-item weight-{{ skill.weight }}" title="{{ skill.description }}">
-                  {{ skill.skill }}
-                </span>
-              {% endfor %}
+              <h3 class="resume-item-title">{{ category.category }}</h3>
+
+              <div class="word-cloud skill-category-{{ category.category | slugify}}">
+                {% for skill in category.skills %}
+                  <span class="cloud-item weight-{{ skill.weight }}" title="{{ skill.description }}">
+                    {{ skill.skill }}
+                  </span>
+                {% endfor %}
+              </div>
             {% endfor %}
           </div>
         </section>
