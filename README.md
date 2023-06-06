@@ -15,5 +15,5 @@ To generate the site files and launch the Jekyll development server in a Docker 
 ```ShellSession
 $ cd /path/to/krazkidd.github.io
 $ sudo docker build -t gh-pages:latest .
-$ sudo docker run --rm -d -p 4000:4000/tcp --name gh-pages gh-pages:latest
+$ sudo docker run --rm -it -p 4000:4000/tcp --name gh-pages gh-pages:latest
 ```
