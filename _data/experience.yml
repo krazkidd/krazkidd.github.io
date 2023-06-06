@@ -1,0 +1,97 @@
+- company: Hughes Federal Credit Union
+  position: Senior Full-Stack Engineer
+  duration: Sep 2021 &mdash; Apr 2023
+  skills:
+    - skill: ASP.NET Core
+      #weight:
+      #description:
+    - skill: Entity Framework
+      #weight:
+      #description:
+    - skill: JavaScript
+      #weight:
+      #description:
+    - skill: Azure DevOps
+      #weight:
+      #description:
+    - skill: SQL Server
+      #weight:
+      #description:
+    - skill: Mule
+      #weight:
+      #description:
+  summary: >
+    <ul class="resume-item-list">
+      <li>Designed and implemented Azure Pipelines (YAML-based CI/CD) for multiple scenarios: Nuget packages and debug symbols for shared libraries, deployment of ASP.NET Core web apps to internal IIS servers, deployment of Java-based Mule integration apps to Cloudhub, deployment of public-facing web apps to Azure App Services, and automated testing through unit tests and functional UI tests. Advocated for removal of dependency on IIS for deployments to lightweight cloud environments like Azure App Services per future guidance.</li>
+      <li>Shared role as SME in directing nearshore and offshore specialists in unlocking SOAP web service (provided by Fiserv XP2 banking core) and other more typical systems for new Mule integration efforts. Attended instructor-led MuleSoft training course to prepare. Co-led discussions on Git branching strategy and branch-based deployments to coordinate several contributors. Reviewed pull requests and alerted management of fragile implementations and hazards to scalability with an emphasis on the risks and costs of rework and billing inefficiencies of microservices in Anypoint Platform.</li>
+      <li>Rewrote a PHP goal-tracking application with ASP.NET Core and Telerik JavaScript widget framework (Kendo UI). Received praise from executives for a successful launch before annual planning session.</li>
+      <li>Recreated PHP intranet applications as web APIs with small amounts of custom jQuery code to make AJAX requests from new intranet site. Implemented CORS on API side and pass-through Windows authentication (Kerberos) in AJAX requests to maintain trustless infrastructure.</li>
+    </ul>
+
+- company: Cogent3D, Inc. dba CropTrak
+  position: Senior Full-Stack Engineer
+  duration: Jan 2018 &mdash; Sep 2021
+  skills:
+    - skill: ASP.NET MVC
+      #weight:
+      #description:
+    - skill: JavaScript
+      #weight:
+      #description:
+    - skill: MySQL
+      #weight:
+      #description:
+    - skill: Xamarin Forms
+      #weight:
+      #description:
+  summary: >
+    <ul class="resume-item-list">
+      <li>Ported a business-critical desktop form-building application to the web as a fast single-page user experience. The back end was redesigned to be platform agnostic using a declarative protocol for a platform-specific renderer to draw the UI. For web client implementation, DevExpress JavaScript widget framework (DevExtreme) was used.</li>
+      <li>Designed a high throughput mapping application using MapBox GL JS. On the back end, a simple cache minimizes expensive instantiations of legacy business objects. On the client side, asynchronous GeoJSON data requests are parallelized. With this front- and back-end work, the map is able to display thousands of geographic assets in real time even as the user pans and zooms around the globe.</li>
+      <li>Formalized an AJAX-first design paradigm by writing cooperative MVC controller and JavaScript classes for a snappy client-side experience with server-side business logic.</li>
+      <li>Bootstrapped development of the next-gen mobile app with Xamarin Forms so the new mobile developer could download or sync a local database for further work.</li>
+    </ul>
+
+- company: ReliaSoft Corporation
+  position: Software Engineer
+  duration: Jun 2016 &mdash; Jan 2018
+  skills:
+    - skill: VB/C# .NET
+      #weight:
+      #description:
+    - skill: T-SQL
+      #weight:
+      #description:
+    - skill: MSBuild
+      #weight:
+      #description:
+  summary: >
+    <ul class="resume-item-list">
+      <li>Expanded project management role in planning as well as implementing long-term infrastructure goals such as .NET Framework version re-targeting, High DPI scaling, code refactoring, continued third-party library upgrades, and new automated builds.</li>
+      <li>Took on authoritative responsibilities in licensing subsystem to include planning and cutting release builds, deploying web site/service to test server, and planning deployments to production server.</li>
+      <li>Proposed and implemented a WCF Web service to alleviate a time-intensive licensing issue using a simple and original message protocol; provided an installation guide for end-users as well as documentation, focus tests, and tools for test, support, and technical writing teams.</li>
+    </ul>
+
+- company: ReliaSoft Corporation
+  position: Associate Software Engineer
+  duration: Jun 2014 &mdash; Jun 2016
+  skills:
+    - skill: VB/C# .NET
+      #weight:
+      #description:
+    - skill: T-SQL
+      #weight:
+      #description:
+    - skill: C++/CLI
+      #weight:
+      #description:
+    - skill: MSBuild
+      #weight:
+      #description:
+  summary: >
+    <ul class="resume-item-list">
+      <li>Assumed lead development of two world-class reliability engineering desktop products, Lambda Predict and RGA; lead design of two major features, including a fast equation solver and an implementation of a reliability prediction standard, using OOP principles to organize code for readability and maintainability.</li>
+      <li>Collaborated with a local and a remote developer to integrate a third-party licensing API; wrote a C++/CLI interop wrapper for the unmanaged libraries providing the API.</li>
+      <li>Made SQL Server-backed tools for sales teams to produce encrypted license files; made separate tools for QA and customer support teams to test and troubleshoot applications under the new licensing scheme.</li>
+      <li>Collaborated with a remote developer to implement a new 3D plotting feature using Helix Toolkit, an open-source .NET graphics library.</li>
+    </ul>

@@ -1,11 +1,19 @@
-Hello, World!
+# krazkidd.github.io
 
-## Playable Games
+## Requires:
 
-- [204∞](/2048/index.html) (JavaScript)
-- [Memory Pets](/memorypets/index.html) (JavaScript)
+- Docker CLI
 
-## Academic Projcts
+## Development:
 
-- [Rockoon Telemetry Logger](https://github.com/krazkidd/stratogee-rockoon) (Arduino)
-- [Gube Roldberg](https://github.com/krazkidd/gube-roldberg) (Java)
+### Starting the Jekyll server (Docker):
+
+[This guide](https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332) was followed to containerize a local development server.
+
+To generate the site files and launch the Jekyll development server in a Docker container, run
+
+```ShellSession
+$ cd /path/to/krazkidd.github.io
+$ sudo docker build -t gh-pages:latest .
+$ sudo docker run --rm -it -p 4000:4000/tcp --name gh-pages gh-pages:latest
+```

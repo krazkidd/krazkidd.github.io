@@ -1,0 +1,203 @@
+- category: Languages
+  skills:
+    - skill: C#
+      weight: 100
+      #description:
+
+    - skill: JavaScript
+      weight: 100
+      #description:
+
+    - skill: SQL
+      weight: 90
+      #description:
+
+    - skill: Razor
+      weight: 90
+      #description:
+
+    - skill: C++/CLI
+      weight: 40
+      #description:
+
+    - skill: Java
+      weight: 40
+      #description:
+
+    - skill: C
+      weight: 40
+      #description:
+
+    - skill: PHP
+      weight: 20
+      #description:
+
+    - skill: Python
+      weight: 80
+      #description:
+
+    - skill: C++
+      weight: 20
+      #description:
+
+- category: Frameworks
+  skills:
+    - skill: .NET Core
+      weight: 100
+      #description:
+
+    - skill: ASP.NET Core
+      weight: 100
+      #description:
+
+    - skill: ASP.NET MVC
+      weight: 90
+      #description:
+
+    - skill: FastAPI
+      weight: 70
+      #description:
+
+    - skill: WebSockets
+      weight: 70
+      #description:
+
+    - skill: jQuery
+      weight: 100
+      #description:
+
+    - skill: Mapbox GL JS
+      weight: 80
+      #description:
+
+    - skill: Bootstrap
+      weight: 90
+      #description:
+
+    - skill: Entity Framework
+      weight: 80
+      #description:
+
+    - skill: DevExpress
+      weight: 80
+      #description:
+
+    - skill: Telerik
+      weight: 80
+      #description:
+
+    - skill: Mule
+      weight: 40
+      #description:
+
+    - skill: Xamarin Forms
+      weight: 20
+      #description:
+
+    - skill: Arduino
+      weight: 10
+      #description:
+
+    - skill: Jekyll
+      weight: 50
+      #description:
+
+- category: DevOps
+  skills:
+    - skill: CI/CD
+      weight: 80
+      #description:
+
+    - skill: Azure DevOps
+      weight: 80
+      description: Repos, Pipelines, Artifacts
+
+    - skill: Anypoint Platform
+      weight: 40
+      description: Cloudhub
+
+    - skill: DigitalOcean
+      weight: 20
+      #description:
+
+    - skill: Docker
+      weight: 60
+      #description:
+
+- category: IDE's and Tools
+  skills:
+    - skill: Visual Studio
+      weight: 100
+      #description:
+
+    - skill: SQL Server and Profiler
+      weight: 90
+      #description:
+
+    - skill: MSBuild
+      weight: 70
+      #description:
+
+    - skill: IIS
+      weight: 50
+      #description:
+
+    - skill: NUnit
+      weight: 60
+      #description:
+
+    - skill: Telerik Test Studio
+      weight: 40
+      #description:
+
+    - skill: Anypoint Studio
+      weight: 40
+      #description:
+
+    - skill: Eclipse
+      weight: 30
+      #description:
+
+    - skill: GCC
+      weight: 20
+      #description:
+
+    - skill: VS Code
+      weight: 80
+      #description:
+
+    - skill: Android Studio
+      weight: 70
+      #description:
+
+    - skill: Vim
+      weight: 70
+      #description:
+
+- category: Operating Systems and Shells
+  skills:
+    - skill: GNU/Linux
+      weight: 100
+      description: Arch, Debian
+
+    - skill: Windows
+      weight: 70
+      #description:
+
+    - skill: Bash
+      weight: 80
+      #description:
+
+- category: Source Control
+  skills:
+    - skill: Git
+      weight: 90
+      #description:
+
+    - skill: SVN
+      weight: 80
+      #description:
+
+    - skill: TFS
+      weight: 80
+      #description:
