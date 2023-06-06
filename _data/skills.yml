@@ -102,6 +102,10 @@
       weight: 10
       #description:
 
+    - skill: Jekyll
+      weight: 50
+      #description:
+
 - category: DevOps
   skills:
     - skill: Azure DevOps
