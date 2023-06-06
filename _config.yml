@@ -50,7 +50,7 @@ plugins:
 #   - vendor/ruby/
 
 # Resume settings
-resume_avatar_url: "https://github.com/krazkidd.png?size=50"
+resume_avatar_url: "https://github.com/krazkidd.png?size=250"
 resume_name: "Mark Ross"
 resume_title: "Senior Full-Stack Engineer"
 
