@@ -11,10 +11,9 @@
 // Layouts
 @import 'resume';
 
-$base-padding: $body-font-size / 6;
-$max-font-size: $body-font-size * 2.2;
-
+// normalize font size within this range
 $min-font-size: $body-font-size * 1.2;
+$max-font-size: $body-font-size * 2.2;
 
 /* see base.scss */
 $wrapper-break: 728px;
@@ -30,55 +29,46 @@ $wrapper-break: 728px;
     font-family: $mono-font;
     line-height: 1em;
     margin: .05em .04em;
+    padding: 0.2em;
   }
 
   .weight-10 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.1;
-    padding: $base-padding * 0.1;
   }
 
   .weight-100 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 1;
-    padding: $base-padding * 1;
   }
 
   .weight-20 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.2;
-    padding: $base-padding * 0.2;
   }
 
   .weight-30 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.3;
-    padding: $base-padding * 0.3;
   }
 
   .weight-40 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.4;
-    padding: $base-padding * 0.4;
   }
 
   .weight-50 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.5;
-    padding: $base-padding * 0.5;
   }
 
   .weight-60 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.6;
-    padding: $base-padding * 0.6;
   }
 
   .weight-70 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.7;
-    padding: $base-padding * 0.7;
   }
 
   .weight-80 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.8;
-    padding: $base-padding * 0.8;
   }
 
   .weight-90 {
     font-size: $min-font-size +($max-font-size - $min-font-size) * 0.9;
-    padding: $base-padding * 0.9;
   }
 }
