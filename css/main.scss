@@ -1,13 +1,15 @@
-@import "normalize";
-@import "mixins";
-@import "variables";
+---
+---
+@import 'normalize';
+@import 'mixins';
+@import 'variables';
 
 // Generic site base & layout styles
-@import "base";
-@import "layout";
+@import 'base';
+@import 'layout';
 
 // Layouts
-@import "resume";
+@import 'resume';
 
 $base-padding: $body-font-size / 6;
 $max-font-size: $body-font-size * 2.2;
@@ -16,7 +18,6 @@ $min-font-size: $body-font-size * 1.2;
 
 /* see base.scss */
 $wrapper-break: 728px;
---- ---// "Reset" styles and SCSS reusable components
 
 .content-section-skills {
   div {
