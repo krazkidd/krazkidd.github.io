@@ -36,10 +36,6 @@
       weight: 80
       #description:
 
-    - skill: Bash
-      weight: 20
-      #description:
-
     - skill: C++
       weight: 20
       #description:
@@ -108,6 +104,10 @@
 
 - category: DevOps
   skills:
+    - skill: CI/CD
+      weight: 80
+      #description:
+
     - skill: Azure DevOps
       weight: 80
       description: Repos, Pipelines, Artifacts
@@ -134,8 +134,8 @@
       weight: 90
       #description:
 
-    - skill: CI/CD
-      weight: 80
+    - skill: MSBuild
+      weight: 70
       #description:
 
     - skill: IIS
@@ -186,10 +186,6 @@
 
     - skill: Bash
       weight: 80
-      #description:
-
-    - skill: Vim
-      weight: 70
       #description:
 
 - category: Source Control
