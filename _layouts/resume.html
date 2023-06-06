@@ -63,7 +63,7 @@
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
-      <section class="content-section">
+      <section class="content-section content-section-experience">
         <header class="section-header">
           <h2>Experience</h2>
         </header>
@@ -87,7 +87,7 @@
       <!-- end Experience -->
       {% endif %} {% if site.resume_section_education %}
       <!-- begin Education -->
-      <section class="content-section">
+      <section class="content-section content-section-education">
         <header class="section-header">
           <h2>Education</h2>
         </header>
@@ -120,7 +120,7 @@
       <!-- end Education -->
       {% endif %} {% if site.resume_section_projects %}
       <!-- begin Projects -->
-      <section class="content-section">
+      <section class="content-section content-section-projects">
         <header class="section-header">
           <h2>Projects</h2>
         </header>
@@ -153,21 +153,22 @@
       <!-- end Projects -->
       {% endif %} {% if site.resume_section_skills %}
       <!-- begin Skills -->
-      <section class="content-section">
+      <section class="content-section content-section-skills">
         <header class="section-header">
           <h2>Skills</h2>
         </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+        <div>
+          {% for category in site.data.skills %} {% for skill in category.skills %}
+          <span class="skill-item weight-{{ skill.weight }}" title="{{ skill.description }}">
+            {{ skill.skill }}
+          </span>
+          {% endfor %} {% endfor %}
         </div>
-        {% endfor %}
       </section>
       <!-- end Skills -->
       {% endif %} {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
-      <section class="content-section">
+      <section class="content-section content-section-recognition">
         <header class="section-header">
           <h2>Recognition</h2>
         </header>
@@ -187,7 +188,7 @@
       <!-- end Recognition -->
       {% endif %} {% if site.resume_section_associations %}
       <!-- begin Associations -->
-      <section class="content-section">
+      <section class="content-section content-section-associations">
         <header class="section-header">
           <h2>Associations</h2>
         </header>
@@ -214,7 +215,7 @@
       <!-- end Associations -->
       {% endif %} {% if site.resume_section_interests %}
       <!-- begin Interests -->
-      <section class="content-section">
+      <section class="content-section content-section-interests">
         <header class="section-header">
           <h2>Outside Interests</h2>
         </header>
@@ -230,7 +231,7 @@
       <!-- end Interests -->
       {% endif %} {% if site.resume_section_links %}
       <!-- begin Links -->
-      <section class="content-section">
+      <section class="content-section content-section-links">
         <header class="section-header">
           <h2>Additional Links</h2>
         </header>
@@ -248,7 +249,7 @@
       <!-- end Links -->
       {% endif %} {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
-      <section class="content-section print-only">
+      <section class="content-section content-section-social-links print-only">
         <header class="section-header">
           <h2>Social Links</h2>
         </header>
