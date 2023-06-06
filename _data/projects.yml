@@ -4,30 +4,30 @@
   #role:
   #duration:
   #url: "https://github.com/krazkidd/snakem"
-  tags: python fastapi websockets docker game portfolio
+  tags: python fastapi websockets docker
   description: >
-    TODO Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+    Implemented a simple multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud with a Docker container.
 
-- project: 204∞
-  #role:
-  #duration:
-  url: "https://krazkidd.github.io/2048/"
-  tags: javascript jquery bootstrap game
-  description: >
-    TODO SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# - project: 204∞
+#   #role:
+#   #duration:
+#   url: "https://krazkidd.github.io/2048/"
+#   tags: javascript jquery bootstrap
+#   description: >
+#     TODO
 
 - project: Rockoon Telemetry Logger
   #role:
   #duration:
   #url: "https://github.com/krazkidd/stratogee-rockoon"
-  tags: arduino c++ academic
+  tags: arduino c++
   description: >
-    TODO Et eiusmod cillum consequat labore et consequat sit reprehenderit occaecat mollit esse veniam ullamco.
+    Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a breadboard-based circuit that would collect and log telemetry (acceleration, geoposition, and temperature) to an SD card.
 
-- project: Gube Roldberg
-  #role:
-  #duration:
-  #url: "https://github.com/krazkidd/gube-roldberg"
-  tags: java game academic
-  description: >
-    TODO Nulla nisi elit excepteur reprehenderit occaecat commodo.
+# - project: Gube Roldberg
+#   #role:
+#   #duration:
+#   #url: "https://github.com/krazkidd/gube-roldberg"
+#   tags: java game
+#   description: >
+#     TODO

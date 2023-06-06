@@ -33,7 +33,7 @@
       #description:
 
     - skill: Python
-      weight: 70
+      weight: 80
       #description:
 
     - skill: Bash
@@ -56,6 +56,14 @@
 
     - skill: ASP.NET MVC
       weight: 90
+      #description:
+
+    - skill: FastAPI
+      weight: 70
+      #description:
+
+    - skill: WebSockets
+      weight: 70
       #description:
 
     - skill: jQuery
@@ -106,6 +114,10 @@
 
     - skill: DigitalOcean
       weight: 20
+      #description:
+
+    - skill: Docker
+      weight: 60
       #description:
 
 - category: IDE's and Tools
