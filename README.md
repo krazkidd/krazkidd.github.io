@@ -20,4 +20,4 @@ $ sudo docker run --rm -it -p 4000:4000/tcp --name gh-pages gh-pages:latest
 
 ## License:
 
-This project is not licensed to you for derivative works. (Which is to say: Please don't reuse anything under the `_data/` directory. You have your own experiences.) The `resume.html` file under `_layouts/` comes from [this Jekyll template](https://github.com/jglovier/resume-template) and is licensed to you under the terms of the MIT license.
+This project is _not_ licensed to you for derivative works. (Which is to say: Please don't reuse anything under the `_data/` directory. You have your own experiences.) The `resume.html` file under `_layouts/` comes from [this Jekyll template](https://github.com/jglovier/resume-template) and is licensed to you under the terms of the MIT license.
