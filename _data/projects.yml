@@ -6,19 +6,25 @@
   #url: "https://github.com/krazkidd/snakem"
   skills:
     - skill: Python
-      weight: 30
+      #weight:
       #description:
     - skill: FastAPI
-      weight: 30
+      #weight:
       #description:
     - skill: WebSockets
-      weight: 30
+      #weight:
       #description:
     - skill: Docker
-      weight: 30
+      #weight:
+      #description:
+    - skill: Vue.js (soon!)
+      #weight:
       #description:
   description: >
-    Implemented a simple networked multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud with a Docker container.
+    <ul class="resume-item-list">
+      <li>Implemented a simple networked multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud with a Docker container.</li>
+      <li>Currently working on a Vue.js front end.</li>
+    </ul>
 
 # - project: 204∞
 #   #role:
@@ -26,27 +32,34 @@
 #   url: "https://krazkidd.github.io/2048/"
 #   skills:
 #     - skill: JavaScript
-#       weight: 30
-#       description:
+#       #weight:
+#       #description:
 #     - skill: jQuery
-#       weight: 30
-#       description:
+#       #weight:
+#       #description:
 #     - skill: BootStrap
-#       weight: 30
-#       description:
+#       #weight:
+#       #description:
 #   description: >
-#     TODO
+#     <ul class="resume-item-list">
+#       <li>TODO</li>
+#     </ul>
 
 - project: Rockoon Telemetry Logger
   #role:
   #duration:
   #url: "https://github.com/krazkidd/stratogee-rockoon"
   skills:
+    - skill: C
+      #weight:
+      #description:
     - skill: Arduino
-      weight: 30
+      #weight:
       #description:
   description: >
-    Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a breadboard-based circuit that would collect and log telemetry (acceleration, geoposition, and temperature) to an SD card.
+    <ul class="resume-item-list">
+      <li>Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a breadboard-based circuit that would collect and log telemetry (acceleration, geoposition, and temperature) to an SD card.</li>
+    </ul>
 
 # - project: Gube Roldberg
 #   #role:
@@ -54,7 +67,9 @@
 #   #url: "https://github.com/krazkidd/gube-roldberg"
 #   skills:
 #     - skill: Java
-#       weight: 30
-#       description:
+#       #weight:
+#       #description:
 #   description: >
-#     TODO
+#     <ul class="resume-item-list">
+#       <li>TODO</li>
+#     </ul>

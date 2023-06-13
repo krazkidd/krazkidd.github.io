@@ -5,10 +5,13 @@
     - skill: ASP.NET Core
       #weight:
       #description:
-    - skill: Entity Framework
+    - skill: Entity Framework Core
       #weight:
       #description:
     - skill: JavaScript
+      #weight:
+      #description:
+    - skill: Telerik Kendo UI
       #weight:
       #description:
     - skill: Azure DevOps
@@ -17,13 +20,13 @@
     - skill: SQL Server
       #weight:
       #description:
-    - skill: Mule
+    - skill: Mule ESB
       #weight:
       #description:
   summary: >
     <ul class="resume-item-list">
       <li>Designed and implemented Azure Pipelines (YAML-based CI/CD) for multiple scenarios: Nuget packages and debug symbols for shared libraries, deployment of ASP.NET Core web apps to internal IIS servers, deployment of Java-based Mule integration apps to Cloudhub, deployment of public-facing web apps to Azure App Services, and automated testing through unit tests and functional UI tests. Advocated for removal of dependency on IIS for deployments to lightweight cloud environments like Azure App Services per future guidance.</li>
-      <li>Shared role as SME in directing nearshore and offshore specialists in unlocking SOAP web service (provided by Fiserv XP2 banking core) and other more typical systems for new Mule integration efforts. Attended instructor-led MuleSoft training course to prepare. Co-led discussions on Git branching strategy and branch-based deployments to coordinate several contributors. Reviewed pull requests and alerted management of fragile implementations and hazards to scalability with an emphasis on the risks and costs of rework and billing inefficiencies of microservices in Anypoint Platform.</li>
+      <li>Directed nearshore and offshore specialists in unlocking SOAP web service (provided by Fiserv XP2 banking core) and other more typical systems for new Mule integration efforts. Attended instructor-led MuleSoft training course to prepare. Co-led discussions on Git branching strategy and branch-based deployments to coordinate multiple contributors and CI/CD systems. Reviewed pull requests and alerted management of fragile implementations and hazards to scalability with an emphasis on the risks and costs of rework and billing inefficiencies of microservices in Anypoint Platform.</li>
       <li>Rewrote a PHP goal-tracking application with ASP.NET Core and Telerik JavaScript widget framework (Kendo UI). Received praise from executives for a successful launch before annual planning session.</li>
       <li>Recreated PHP intranet applications as web APIs with small amounts of custom jQuery code to make AJAX requests from new intranet site. Implemented CORS on API side and pass-through Windows authentication (Kerberos) in AJAX requests to maintain trustless infrastructure.</li>
     </ul>
@@ -36,6 +39,9 @@
       #weight:
       #description:
     - skill: JavaScript
+      #weight:
+      #description:
+    - skill: DevExtreme
       #weight:
       #description:
     - skill: MySQL
@@ -59,6 +65,9 @@
     - skill: VB/C# .NET
       #weight:
       #description:
+    - skill: DevExpress
+      #weight:
+      #description:
     - skill: T-SQL
       #weight:
       #description:
@@ -77,6 +86,9 @@
   duration: Jun 2014 &mdash; Jun 2016
   skills:
     - skill: VB/C# .NET
+      #weight:
+      #description:
+    - skill: DevExpress
       #weight:
       #description:
     - skill: T-SQL

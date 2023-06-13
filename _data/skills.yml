@@ -36,10 +36,6 @@
       weight: 80
       #description:
 
-    - skill: C++
-      weight: 20
-      #description:
-
 - category: Frameworks
   skills:
     - skill: .NET Core
@@ -74,7 +70,7 @@
       weight: 90
       #description:
 
-    - skill: Entity Framework
+    - skill: Entity Framework Core
       weight: 80
       #description:
 
@@ -82,11 +78,15 @@
       weight: 80
       #description:
 
-    - skill: Telerik
+    - skill: DevExtreme
       weight: 80
       #description:
 
-    - skill: Mule
+    - skill: Telerik Kendo UI
+      weight: 80
+      #description:
+
+    - skill: Mule ESB
       weight: 40
       #description:
 
