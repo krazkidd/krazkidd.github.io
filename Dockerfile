@@ -19,7 +19,7 @@ FROM ubuntu:22.04
 # "#################################################"
 # "Install Ubuntu prerequisites for Ruby and GitHub Pages (Jekyll)"
 # "Partially based on https://gist.github.com/jhonnymoreira/777555ea809fd2f7c2ddf71540090526"
-RUN apt-get update && apt-get -y --no-install-recommends install \
+RUN apt-get update && apt-get -y --no-install-recommends --no-install-suggests install \
     git \
     curl \
     autoconf \
