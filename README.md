@@ -6,6 +6,12 @@
 
 ## Development:
 
+### VS Code Recommended Extensions:
+
+- sissel.shopify-liquid
+  - TODO finish this
+  - The Liquid template language server is file extension Prettier should ignore _\*.html_, _\*.scss_, and _\*.css_
+
 ### Starting the Jekyll server (Docker):
 
 [This guide](https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332) was followed to containerize a local development server.
@@ -20,4 +26,6 @@ $ sudo docker run --rm -it -p 4000:4000/tcp --name gh-pages gh-pages:latest
 
 ## License:
 
-This project is _not_ licensed to you for derivative works. (Which is to say: Please don't reuse anything under the `_data/` directory. You have your own experiences.) The `resume.html` file under `_layouts/` comes from [this Jekyll template](https://github.com/jglovier/resume-template) and is licensed to you under the terms of the MIT license.
+This project is _not_ licensed to you for derivative works. Which is to say: Be sure to scrub everything under the `_data/` directory if you clone, fork, or otherwise share or redistribute the contents of this repository. You have your own experiences!
+
+The `resume.html` file under `_layouts/` comes from [this Jekyll template](https://github.com/jglovier/resume-template) and is licensed to you under the terms of the MIT license.
