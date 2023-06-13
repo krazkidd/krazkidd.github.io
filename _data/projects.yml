@@ -3,7 +3,7 @@
 - project: Snake-M
   #role:
   #duration:
-  #url: "https://github.com/krazkidd/snakem"
+  url: "https://github.com/krazkidd/snakem"
   skills:
     - skill: Python
       #weight:
@@ -48,7 +48,7 @@
 - project: Rockoon Telemetry Logger
   #role:
   #duration:
-  #url: "https://github.com/krazkidd/stratogee-rockoon"
+  url: "https://github.com/krazkidd/stratogee-rockoon"
   skills:
     - skill: C
       #weight:
