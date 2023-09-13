@@ -52,7 +52,7 @@
     - skill: Arduino
   description: >
     <ul class="resume-item-list">
-      <li>Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a breadboard-based circuit that would collect and log telemetry (acceleration, geoposition, and temperature) to an SD card.</li>
+      <li>Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a circuit that would collect and log flight telemetry (acceleration, geoposition, and temperature) to an SD card.</li>
     </ul>
 
 # - project: Gube Roldberg
