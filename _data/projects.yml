@@ -1,5 +1,21 @@
 # Copyright © 2023 Mark Ross. All rights reserved.
 
+- project: lineup
+  #role:
+  #duration:
+  url: "https://github.com/krazkidd/lineup"
+  skills:
+    - skill: Nuxt
+    - skill: Vue
+    - skill: Tailwind CSS
+    - skill: PrimeVue
+  description: >
+    <ul class="resume-item-list">
+      <li>Created a Nuxt.js (Vue.js) softball lineup editor using Nuxt modules/composables for rapid implementation of drag-and-drop, dark mode, and locally-stored persistent data.</li>
+      <li>Integrated Tailwind CSS and PrimeVue components for a polished and responsive look and feel.</li>
+      <li>Used static site generation (SSG) rendering mode for deployment to GitHub Pages, which provides free hosting.</li>
+    </ul>
+
 - project: Snake-M
   #role:
   #duration:

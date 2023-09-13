@@ -102,6 +102,22 @@
       weight: 50
       #description:
 
+    - skill: Nuxt
+      weight: 80
+      #description:
+
+    - skill: Vue
+      weight: 80
+      #description:
+
+    - skill: Tailwind CSS
+      weight: 80
+      #description:
+
+    - skill: PrimeVue
+      weight: 80
+      #description:
+
 - category: DevOps
   skills:
     - skill: CI/CD
@@ -124,6 +140,8 @@
       weight: 30
       description: Droplets, App Platform
 
+    - skill: GitHub Actions
+      weight: 40
       #description:
 
     - skill: Docker
