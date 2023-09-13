@@ -102,6 +102,10 @@
       weight: 50
       #description:
 
+    - skill: Godot
+      weight: 70
+      #description:
+
     - skill: Nuxt
       weight: 80
       #description:

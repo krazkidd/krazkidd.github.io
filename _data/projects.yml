@@ -16,6 +16,20 @@
       <li>Used static site generation (SSG) rendering mode for deployment to GitHub Pages, which provides free hosting.</li>
     </ul>
 
+- project: CyberSteel Rapture
+  #role:
+  #duration:
+  url: "https://github.com/krazkidd/mech-jam-iv"
+  skills:
+    - skill: Godot
+    - skill: C#
+  description: >
+    <ul class="resume-item-list">
+      <li>Devised and realized a limited game design scope, for a platform shooter game type, over a two week game jam.</li>
+      <li>Refactored code and polished game mechanics into a minimum viable product after jam period.</li>
+      <li>Utilized a number of Godot best practices for an effective and performant scene tree composition with custom scripted behaviors.</li>
+    </ul>
+
 - project: Snake-M
   #role:
   #duration:
