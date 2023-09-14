@@ -4,19 +4,22 @@
   position: Senior Full-Stack Engineer
   duration: Sep 2021 &mdash; Mar 2023
   skills:
-    - skill: ASP.NET Core
+    - skill: Azure DevOps
       #weight:
       #description:
-    - skill: Entity Framework Core
+    - skill: C#
       #weight:
       #description:
     - skill: JavaScript
       #weight:
       #description:
-    - skill: Telerik Kendo UI
+    - skill: ASP.NET Core
       #weight:
       #description:
-    - skill: Azure DevOps
+    - skill: EF Core
+      #weight:
+      #description:
+    - skill: Telerik Kendo UI
       #weight:
       #description:
     - skill: SQL Server
