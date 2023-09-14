@@ -41,7 +41,7 @@
     - skill: Docker
   description: >
     <ul class="resume-item-list">
-      <li>Implemented a simple networked multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud with a Docker container.</li>
+      <li>Implemented a simple networked multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud via Docker container.</li>
     </ul>
 
 # - project: 204∞
