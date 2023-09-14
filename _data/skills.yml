@@ -70,7 +70,7 @@
       weight: 90
       #description:
 
-    - skill: Entity Framework Core
+    - skill: EF Core
       weight: 80
       #description:
 
@@ -102,10 +102,6 @@
       weight: 50
       #description:
 
-    - skill: Godot
-      weight: 70
-      #description:
-
     - skill: Nuxt
       weight: 80
       #description:
@@ -122,16 +118,12 @@
       weight: 80
       #description:
 
+    - skill: Android
+      weight: 40
+      #description:
+
 - category: DevOps
   skills:
-    - skill: CI/CD
-      weight: 80
-      #description:
-
-    - skill: serverless
-      weight: 20
-      #description:
-
     - skill: Azure DevOps
       weight: 80
       description: Repos, Pipelines, Artifacts
@@ -154,7 +146,7 @@
 
 - category: IDE's and Tools
   skills:
-    - skill: Visual Studio
+    - skill: Visual Studio Professional
       weight: 100
       #description:
 
@@ -195,10 +187,14 @@
       #description:
 
     - skill: Android Studio
-      weight: 70
+      weight: 40
       #description:
 
     - skill: Vim
+      weight: 70
+      #description:
+
+    - skill: Godot
       weight: 70
       #description:
 
