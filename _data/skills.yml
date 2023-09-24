@@ -12,6 +12,10 @@
       weight: 90
       #description:
 
+    - skill: NoSQL
+      weight: 70
+      #description:
+
     - skill: Razor
       weight: 90
       #description:
@@ -143,6 +147,10 @@
     - skill: Docker
       weight: 60
       #description:
+
+    - skill: Google Cloud
+      weight: 20
+      description: Firestore
 
 - category: IDE's and Tools
   skills:
