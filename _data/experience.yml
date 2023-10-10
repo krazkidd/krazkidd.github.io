@@ -7,10 +7,7 @@
     - skill: Azure DevOps
       #weight:
       #description:
-    - skill: C#
-      #weight:
-      #description:
-    - skill: JavaScript
+    - skill: jQuery
       #weight:
       #description:
     - skill: ASP.NET Core
@@ -30,10 +27,12 @@
       #description:
   summary: >
     <ul class="resume-item-list">
-      <li>Designed and implemented Azure Pipelines (YAML-based CI/CD) for multiple scenarios: Nuget packages and debug symbols for shared libraries, deployment of ASP.NET Core web apps to internal IIS servers, deployment of Java-based Mule integration apps to Cloudhub, deployment of public-facing web apps to Azure App Services, and automated testing through unit tests and functional UI tests. Advocated for removal of dependency on IIS for deployments to lightweight cloud environments like Azure App Services per future guidance.</li>
-      <li>Directed nearshore and offshore specialists in unlocking SOAP web service (provided by Fiserv XP2 banking core) and other more typical systems for new Mule integration efforts. Attended instructor-led MuleSoft training course to prepare. Co-led discussions on Git branching strategy and branch-based deployments to coordinate multiple contributors and CI/CD systems. Reviewed pull requests and alerted management of fragile implementations and hazards to scalability with an emphasis on the risks and costs of rework and billing inefficiencies of microservices in Anypoint Platform.</li>
-      <li>Rewrote a PHP goal-tracking application with ASP.NET Core and Telerik JavaScript widget framework (Kendo UI). Received praise from executives for a successful launch before annual planning session.</li>
-      <li>Recreated PHP intranet applications as web APIs with small amounts of custom jQuery code to make AJAX requests from new intranet site. Implemented CORS on API side and pass-through Windows authentication (Kerberos) in AJAX requests to maintain trustless infrastructure.</li>
+      <li>Assessed and documented needs of internal customers, from executives to customer support reps, and implemented custom ASP.NET Core web apps and APIs backed by code-first EF Core ORM and SQL Server; Telerik Kendo UI JavaScript widgets were used for a consistent and responsive UX.</li>
+      <li>Designed and implemented YAML-based CI/CD systems in Azure DevOps Pipelines to deploy .NET web apps to on-prem VMs as well as Java-based Mule ESB services to CloudHub; led a team of 12 developers on Git branching strategy and conditional deployments to multi-stage environments.</li>
+      <li>Advocated for removal of dependency on IIS in favor of a lighter weight runtime and developed a CI/CD pipeline targeting the Azure App Service platform.</li>
+      <li>Formalized identity and access management (IAM) in internal web apps and services with a combination of CORS support and pass-through authentication in AJAX requests to maintain trustless Kerberos infrastructure.</li>
+      <li>Directed Mule ESB specialists in unlocking the banking core’s SOAP service as a REST-ful API for building out additional Mule integrations; performed code reviews and identified fragile implementations and billing inefficiencies of underutilized microservices in Anypoint Platform.</li>
+      <li>Recreated custom PHP integrations in the intranet CMS with jQuery and REST-ful .NET Core APIs for improved maintainability after migration to a new CMS.</li>
     </ul>
 
 - company: Cogent3D, Inc. dba CropTrak
@@ -43,10 +42,13 @@
     - skill: ASP.NET MVC
       #weight:
       #description:
-    - skill: JavaScript
+    - skill: jQuery
       #weight:
       #description:
     - skill: DevExtreme
+      #weight:
+      #description:
+    - skill: Mapbox GL JS
       #weight:
       #description:
     - skill: MySQL
@@ -57,23 +59,23 @@
       #description:
   summary: >
     <ul class="resume-item-list">
-      <li>Ported a business-critical desktop form-building application to the web as a fast single-page user experience. The back end was redesigned to be platform agnostic using a declarative protocol for a platform-specific renderer to draw the UI. For web client implementation, DevExpress JavaScript widget framework (DevExtreme) was used.</li>
-      <li>Designed a high throughput mapping application using MapBox GL JS. On the back end, a simple cache minimizes expensive instantiations of legacy business objects. On the client side, asynchronous GeoJSON data requests are parallelized. With this front- and back-end work, the map is able to display thousands of geographic assets in real time even as the user pans and zooms around the globe.</li>
-      <li>Formalized an AJAX-first design paradigm by writing cooperative MVC controller and JavaScript classes for a snappy client-side experience with server-side business logic.</li>
-      <li>Bootstrapped development of the next-gen mobile app with Xamarin Forms so the new mobile developer could download or sync a local database for further work.</li>
+      <li>Designed a high-throughput mapping feature using MapBox GL JS. Used MySQL spatial indexes and queries behind a simple cache (to reduce query result set) and parallelized GeoJSON AJAX requests, producing a map that could display thousands of geographic assets in real time as the user panned and zoomed around the globe.</li>
+      <li>Established an asynchronous design paradigm for other developers by writing ASP.NET MVC base controller classes and a complementary JavaScript AJAX library.</li>
+      <li>Ported a business-critical desktop form-building application to the web as a fast single-page user experience; business logic was reimagined as a REST-ful API and DevExtreme JavaScript widgets were used for the web client.</li>
+      <li>Bootstrapped development of the next-gen mobile app with Xamarin Forms so the incoming mobile developer could download or sync a local database for further work.</li>
     </ul>
 
 - company: ReliaSoft Corporation
   position: Software Engineer
   duration: Jun 2016 &mdash; Jan 2018
   skills:
-    - skill: VB/C# .NET
+    - skill: .NET Framework
       #weight:
       #description:
     - skill: DevExpress
       #weight:
       #description:
-    - skill: T-SQL
+    - skill: SQL Server
       #weight:
       #description:
     - skill: MSBuild
@@ -81,22 +83,22 @@
       #description:
   summary: >
     <ul class="resume-item-list">
-      <li>Expanded project management role in planning as well as implementing long-term infrastructure goals such as .NET Framework version re-targeting, High DPI scaling, code refactoring, continued third-party library upgrades, and new automated builds.</li>
-      <li>Took on authoritative responsibilities in licensing subsystem to include planning and cutting release builds, deploying web site/service to test server, and planning deployments to production server.</li>
-      <li>Proposed and implemented a WCF Web service to alleviate a time-intensive licensing issue using a simple and original message protocol; provided an installation guide for end-users as well as documentation, focus tests, and tools for test, support, and technical writing teams.</li>
+      <li>Took on major responsibilities of licensing subsystem such as planning and cutting release builds and deploying a web service to production servers.</li>
+      <li>Identified overdue maintenance and oversaw long-term infrastructure planning, including .NET Framework version re-targeting, High DPI scaling, code refactoring, third-party library upgrades, and automated builds.</li>
+      <li>Proposed and implemented a WCF web service to alleviate a time-sensitive licensing issue using a simple and original message protocol; provided an installation guide for end-users as well as test steps and tools for non-technical teams.</li>
     </ul>
 
 - company: ReliaSoft Corporation
   position: Associate Software Engineer
   duration: Jun 2014 &mdash; Jun 2016
   skills:
-    - skill: VB/C# .NET
+    - skill: .NET Framework
       #weight:
       #description:
     - skill: DevExpress
       #weight:
       #description:
-    - skill: T-SQL
+    - skill: SQL Server
       #weight:
       #description:
     - skill: C++/CLI
@@ -107,8 +109,8 @@
       #description:
   summary: >
     <ul class="resume-item-list">
-      <li>Assumed lead development of two world-class reliability engineering desktop products, Lambda Predict and RGA; lead design of two major features, including a fast equation solver and an implementation of a reliability prediction standard, using OOP principles to organize code for readability and maintainability.</li>
-      <li>Collaborated with a local and a remote developer to integrate a third-party licensing API; wrote a C++/CLI interop wrapper for the unmanaged libraries providing the API.</li>
-      <li>Made SQL Server-backed tools for sales teams to produce encrypted license files; made separate tools for QA and customer support teams to test and troubleshoot applications under the new licensing scheme.</li>
+      <li>Assumed ownership of two world-class reliability engineering desktop products, Lambda Predict and RGA, using .NET Framework and DevExpress; led design of two major features, including a fast root finder and the implementation of a reliability prediction standard.</li>
+      <li>Collaborated with mentors to integrate a third-party licensing API; wrote a C++/CLI interop wrapper for the unmanaged libraries providing the API and arranged a custom MSBuild template to ensure functional build outputs containing mixed CLR and native binaries.</li>
+      <li>Produced SQL Server-backed tools for sales teams to generate encrypted license files for distribution to users; made separate tools for QA and customer support teams to test and troubleshoot applications under the new licensing scheme.</li>
       <li>Collaborated with a remote developer to implement a new 3D plotting feature using Helix Toolkit, an open-source .NET graphics library.</li>
     </ul>

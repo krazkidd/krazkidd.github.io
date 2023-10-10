@@ -6,15 +6,14 @@
   url: "https://github.com/krazkidd/lineup"
   skills:
     - skill: Nuxt
-    - skill: Vue
+    - skill: Vue.js
     - skill: Tailwind CSS
     - skill: PrimeVue
-    - skill: NoSQL
     - skill: Google Firestore
   description: >
     <ul class="resume-item-list">
-      <li>Created a Nuxt (Vue.js) softball lineup editor using Nuxt modules/composables for rapid implementation of drag-and-drop, dark mode, and locally-stored persistent data.</li>
-      <li>Added a live scoreboard using Google Firestore's NoSQL database; the scoreboard can be shared via link or QR code with friends for real-time updates. Friends can react with emojis.</li>
+      <li>Created a Nuxt (Vue.js) softball lineup editor using Nuxt modules and composables for rapid implementation of drag-and-drop, dark mode, and data persisted locally and in the cloud.</li>
+      <li>Added a live scoreboard feature using Google Firestore's NoSQL database. The scoreboard can be shared via link or QR code with friends for real-time updates; friends can react with emojis.</li>
       <li>Integrated Tailwind CSS and PrimeVue components for a polished and responsive look and feel.</li>
       <li>Used static site generation (SSG) rendering mode for continuous deployment to GitHub Pages, which provides free hosting.</li>
     </ul>
@@ -25,12 +24,11 @@
   url: "https://github.com/krazkidd/mech-jam-iv"
   skills:
     - skill: Godot
-    - skill: C#
+    - skill: .NET Core
   description: >
     <ul class="resume-item-list">
-      <li>Devised and realized a limited game design scope, for a platform shooter game type, over a two week game jam.</li>
-      <li>Refactored code and polished game mechanics into a minimum viable product after jam period.</li>
-      <li>Utilized a number of Godot best practices for an effective and performant scene tree composition with custom scripted behaviors.</li>
+      <li>Scoped and created a design for a platform shooter game type, over a two week period; refactored and polished game mechanics into a minimum viable product after jam period.</li>
+      <li>Utilized a number of Godot best practices for an effective and performant scene tree composition with custom scripted behaviors in C#.</li>
     </ul>
 
 - project: Snake-M
@@ -44,7 +42,8 @@
     - skill: Docker
   description: >
     <ul class="resume-item-list">
-      <li>Implemented a simple networked multiplayer game with a FastAPI server component and WebSockets-based messaging. The server is deployable to the cloud via Docker container.</li>
+      <li>Created a console-based networked multiplayer Python game with WebSockets-based messaging.</li>
+      <li>Added a FastAPI server component and made it deployable to the cloud via Docker container.</li>
     </ul>
 
 # - project: 204∞
@@ -69,7 +68,8 @@
     - skill: Arduino
   description: >
     <ul class="resume-item-list">
-      <li>Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a circuit that would collect and log flight telemetry (acceleration, geoposition, and temperature) to an SD card.</li>
+      <li>Independently designed, using an ATMega8 microcontroller and other off-the-shelf electronics components, a circuit that would collect and log telemetry (acceleration, geoposition, and temperature) to an SD card.</li>
+      <li>Wrote a polling loop using the Arduino API and community libraries to access devices over serial bus protocols.</li>
     </ul>
 
 # - project: Gube Roldberg
