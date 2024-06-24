@@ -4,12 +4,12 @@ description: ""
 
 # Build settings
 markdown: kramdown
-# theme: modern-resume-theme (Use this iF you are hosting your resume yourself)
-remote_theme: krazkidd/resume-template # (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
+
+# theme: modern-resume-theme (Use this iF you are hosting your resume yourself)
+remote_theme: krazkidd/resume-template # (Use this if you are hosting your resume on GitHub)
 
 plugins:
   # provided by GitHub by default
