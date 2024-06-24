@@ -1,12 +1,8 @@
 # krazkidd.github.io
 
-## Requires:
+## Development
 
-- Docker CLI
-
-## Development:
-
-### VS Code Recommended Extensions:
+### VS Code Recommended Extensions
 
 - sissel.shopify-liquid
   - Provides auto-formatting of Liquid templates.
@@ -22,7 +18,7 @@ docker build -t krazkidd.github.io .
 docker run --rm --network host krazkidd.github.io
 ```
 
-## License:
+## License
 
 This project is _not_ licensed to you for derivative works. Which is to say: Be sure to scrub everything under the `_data/` directory if you clone, fork, or otherwise share or redistribute the contents of this repository. You have your own experiences!
 
