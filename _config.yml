@@ -26,8 +26,8 @@ plugins:
 
   # supported by GitHub
   # see https://pages.github.com/versions/
-  #- jekyll-avatar
-  #- jekyll-feed
+  - jekyll-avatar
+  - jekyll-feed
   - jekyll-remote-theme
 
   # *not* supported by GitHub (requires custom GitHub Action to build/publish)
