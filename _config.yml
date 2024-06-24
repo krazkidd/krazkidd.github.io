@@ -12,20 +12,6 @@ sass:
 remote_theme: krazkidd/resume-template # (Use this if you are hosting your resume on GitHub)
 
 plugins:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   - jekyll-avatar
   - jekyll-feed
   - jekyll-remote-theme
