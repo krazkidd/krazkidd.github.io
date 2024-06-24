@@ -4,53 +4,20 @@ description: ""
 
 # Build settings
 markdown: kramdown
-# theme: modern-resume-theme (Use this iF you are hosting your resume yourself)
-remote_theme: krazkidd/resume-template # (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
 
-plugins:
-  # provided by GitHub by default
-  # see https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins
-  # - jekyll-coffeescript
-  # - jekyll-default-layout
-  # - jekyll-gist
-  # - jekyll-github-metadata
-  # - jekyll-optional-front-matter
-  # - jekyll-paginate
-  # - jekyll-readme-index
-  # - jekyll-titles-from-headings
-  # - jekyll-relative-links
+# theme: modern-resume-theme (Use this iF you are hosting your resume yourself)
+remote_theme: krazkidd/resume-template # (Use this if you are hosting your resume on GitHub)
 
-  # supported by GitHub
-  # see https://pages.github.com/versions/
-  #- jekyll-avatar
-  #- jekyll-feed
+plugins:
+  - jekyll-avatar
+  - jekyll-feed
   - jekyll-remote-theme
 
-  # *not* supported by GitHub (requires custom GitHub Action to build/publish)
-  #- jekyll-email-protect
-  #- jekyll_github_chart
-  #- jekyll-mermaid
-  #TODO compare to jemoji
-  #- jekyll-octicons
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
 # Resume settings
-resume_avatar_url: "https://github.com/krazkidd.png?size=250"
+resume_avatar: "krazkidd"
 resume_name: "Mark Ross"
 resume_title: "Senior Full-Stack Engineer"
 
