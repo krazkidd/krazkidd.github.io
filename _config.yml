@@ -31,7 +31,7 @@ plugins:
   - jekyll-remote-theme
 
 # Resume settings
-resume_avatar_url: "https://github.com/krazkidd.png?size=250"
+resume_avatar: "krazkidd"
 resume_name: "Mark Ross"
 resume_title: "Senior Full-Stack Engineer"
 
